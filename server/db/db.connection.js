@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 // let dbConfig = require('./database/db/dbConfig');
-let dbURL = process.env.dbURL || 'mongodb://localhost:27017/rocGamesDB';
+let dbURL = process.env.DB_URL || 'mongodb://localhost:27017/rocGamesDB';
 
 function connectToDB() {
   mongoose.Promise = global.Promise;
