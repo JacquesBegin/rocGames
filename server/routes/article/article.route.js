@@ -14,3 +14,14 @@ articleRoute.route('/create').post((req, res, next) => {
   });
 });
 
+// Get all articles
+articleRoute.route('/').get((req, res, next) => {
+  Article.find((error, data) => {
+    if (error) {
+      return next(error);
+    } else {
+      res.json(data);
+    }
+  });
+});
+
