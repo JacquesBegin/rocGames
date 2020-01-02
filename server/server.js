@@ -3,7 +3,7 @@ let path = require('path');
 let cors = require('cors');
 let bodyParser = require('body-parser');
 
-let db = require('db/db.connection');
+let db = require('database/db');
 
 const profileRoute = require('./routes/profile');
 const articleRoute = require('./routes/article');
