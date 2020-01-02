@@ -22,11 +22,12 @@ app.use('/articleRoute', articleRoute);
 const port = process.env.PORT || 5555;
 const server = app.listen(port, () => {
   console.log('Connected to port ' + port);
+  db.connect();
 });
 
-app.use((req, res, next) => {
-  next(createError(404));
-});
+// app.use((req, res, next) => {
+//   next(createError(404));
+// });
 
 app.use(function(err, req, res, next) {
   console.error(err.message);
