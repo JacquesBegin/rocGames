@@ -5,7 +5,8 @@ let dbURL = process.env.DB_URL || 'mongodb://localhost:27017/rocGamesDB';
 function connectToDB() {
   mongoose.Promise = global.Promise;
   mongoose.connect(dbURL, {
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
   })
   .then(() => {
     console.log('Database successfully connected');
@@ -17,5 +18,5 @@ function connectToDB() {
 }
 
 module.exports = {
-  connect: connectToDB()
+  connect: connectToDB
 }
