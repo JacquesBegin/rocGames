@@ -36,4 +36,17 @@ articleRoute.route('/read/:id').get((req, res, next) => {
   });
 });
 
-//
+// Update article
+articleRoute.route('/update/:id').put((req, res, next) => {
+  Article.findByIdAndUpdate(req.params.id, {
+    $set: req.body
+  }, (error, data) => {
+    if (error) {
+      console.log(error);
+      return next(error);
+    } else {
+      console.log("Data updated successfullly");
+      res.json(data);
+    }
+  });
+});
