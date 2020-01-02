@@ -25,3 +25,15 @@ articleRoute.route('/').get((req, res, next) => {
   });
 });
 
+// Get single article
+articleRoute.route('/read/:id').get((req, res, next) => {
+  Article.findById(req.params.id, (error, data) => {
+    if (error) {
+      return next(error);
+    } else {
+      res.json(data);
+    }
+  });
+});
+
+//
