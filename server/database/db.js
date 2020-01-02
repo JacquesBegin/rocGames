@@ -4,7 +4,7 @@ let dbURL = process.env.DB_URL || 'mongodb://localhost:27017/rocGamesDB';
 
 function connectToDB() {
   mongoose.Promise = global.Promise;
-  mongoose.connect(dbConfig.db, {
+  mongoose.connect(dbURL, {
     useNewUrlParser: true
   })
   .then(() => {
