@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   displayMenu = 'none';
 
-  constructor() {}
+  constructor() {
+    this.resetNavbarMenuOnResize();
+  }
 
   ngOnInit() {
   }
@@ -19,14 +21,13 @@ export class NavbarComponent implements OnInit {
   
   // TODO: Need to convert to angular binding format
   resetNavbarMenuOnResize() {
-    let menuPanel = document.getElementById("navbarLinks");
     window.onresize = () => {
       if (window.innerWidth >= 768) {
-        if (menuPanel.style.display === "none") {
-          menuPanel.style.display = "block";
+        if (this.displayMenu === "none") {
+          this.displayMenu = "block";
         }
       } else {
-        menuPanel.style.display = "none";
+        this.displayMenu = "none";
       }
     }
   }
