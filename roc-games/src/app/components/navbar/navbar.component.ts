@@ -19,7 +19,6 @@ export class NavbarComponent implements OnInit {
     this.displayMenu = this.displayMenu === "block" ? "none" : "block";
   }
   
-  // TODO: Need to convert to angular binding format
   resetNavbarMenuOnResize() {
     window.onresize = () => {
       if (window.innerWidth >= 768) {
