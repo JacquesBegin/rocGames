@@ -14,11 +14,7 @@ export class NavbarComponent implements OnInit {
   }
 
   createNavbarDropDownMenu() {
-    if (this.displayMenu === "block") {
-      this.displayMenu = "none";
-    } else {
-      this.displayMenu = "block";
-    }
+    this.displayMenu = this.displayMenu === "block" ? "none" : "block";
   }
   
   // TODO: Need to convert to angular binding format
