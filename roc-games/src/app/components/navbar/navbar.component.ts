@@ -9,6 +9,7 @@ export class NavbarComponent implements OnInit {
   displayMenu = 'none';
 
   constructor() {
+    if (window.innerWidth >= 768) this.displayMenu = "block"; // Displays navbar on page load over 767px screen width.
     this.resetNavbarMenuOnResize();
   }
 
