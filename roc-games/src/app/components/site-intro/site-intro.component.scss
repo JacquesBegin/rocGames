@@ -1,0 +1,15 @@
+#siteIntro {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 41rem;
+  background-image: linear-gradient(#ffcb07 65%,#20a199);
+  border-bottom: 1rem solid #ffffff;
+  margin-bottom: 5rem;
+}
+
+#siteIntroTagline {
+  margin: 0;
+}
