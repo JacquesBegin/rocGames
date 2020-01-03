@@ -69,3 +69,66 @@
 #navbarLinks a:hover {
   background-color: #ffefb4;
 }
+
+
+@media only screen and (min-width: 768px) {
+
+  #navbarMenu {
+    position: static;
+  }
+
+  #navbarMenuIcon {
+    display: none;
+  }
+
+  #navbarLinks {
+    position: static;
+    float: right;
+    margin: 1rem 1rem 0 0;
+    display: block;
+    border: none;
+    border-radius: 0;
+  }
+
+  #navbarLinks a {
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-right: 1px solid #000000;
+    border-bottom: none;
+    padding: 0 1em;
+    display: inline;
+  }
+
+  #navbarLinks a:last-of-type {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  #navBarBaseLine {
+    width: 100%;
+    height: 0.8rem;
+    transform: skew(-20deg);
+    background-color: #ffcb07;
+    margin-top: 1rem;
+  }
+
+  
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  #navbarLinks {
+    display: block;
+  }
+
+  #navbarLinks a {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  #navBarBaseLine {
+    height: 1rem;
+  }
+
+}
