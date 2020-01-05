@@ -3,6 +3,11 @@
 @import "./assets/styles/normalize.scss";
 @import "./assets/styles/variables.scss";
 
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: $white;
 }
