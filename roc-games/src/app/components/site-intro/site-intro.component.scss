@@ -1,15 +1,50 @@
+@import "../../../assets/styles/variables.scss";
+
 #siteIntro {
   clear: both;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 41rem;
+  // height: 41rem;
+  height: 15rem;
   background-image: linear-gradient(#ffcb07 65%,#20a199);
   border-bottom: 1rem solid #ffffff;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 #siteIntroTagline {
   margin: 0;
+}
+
+#siteIntroStatement {
+  margin: 0 3rem 6rem 3rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#siteIntroContentBlocks {
+  margin: 0 1rem;
+}
+
+.siteIntroContentBlocksItem {
+  display: flex;
+  
+}
+
+.siteIntroContentBlocksItemHeader {
+  background-color: $primary-yellow;
+  // width: 160px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.siteIntroContentBlocksItemBody {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
