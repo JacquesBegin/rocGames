@@ -28,21 +28,22 @@
 }
 
 .siteIntroContentBlocksItem {
-  display: flex;
-  
+  // display: flex;
 }
 
 .siteIntroContentBlocksItemHeader {
   background-color: $primary-yellow;
-  // width: 160px;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
+  width: 33%;
+  // padding: 0.5rem;
+  margin-bottom: 0.5rem;
   text-align: center;
   font-size: 1.5rem;
+  transform: skew(-20deg);
 }
 
 .siteIntroContentBlocksItemBody {
-  padding-left: 1rem;
+  background-color: #f3f3f3;
+  // padding-left: 1rem;
   margin-bottom: 1rem;
   display: flex;
   justify-content: center;
