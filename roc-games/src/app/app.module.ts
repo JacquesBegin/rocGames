@@ -7,6 +7,7 @@ import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SiteIntroComponent } from './components/site-intro/site-intro.component';
 import { TheTeamComponent } from './components/theTeam/the-team/the-team.component';
+import { PlayersCardComponent } from './components/theTeam/playersCard/players-card/players-card.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { TheTeamComponent } from './components/theTeam/the-team/the-team.compone
     NavbarComponent,
     SiteIntroComponent,
     TheTeamComponent,
+    PlayersCardComponent,
   ],
   imports: [
     BrowserModule,
