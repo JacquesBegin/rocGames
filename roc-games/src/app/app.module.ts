@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SiteIntroComponent } from './components/site-intro/site-intro.component';
+import { TheTeamComponent } from './components/theTeam/the-team/the-team.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { SiteIntroComponent } from './components/site-intro/site-intro.component
     TopBarComponent,
     NavbarComponent,
     SiteIntroComponent,
+    TheTeamComponent,
   ],
   imports: [
     BrowserModule,
