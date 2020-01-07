@@ -16,7 +16,7 @@ export class TheTeamComponent implements OnInit {
     },
     {
       playerName: "Mary \"Evil Eye\" Henderson",
-      playerPicture: "",
+      playerPicture: "../../../../assets/images/temp/kingUrubu.jpg",
       playerAchievements: ["Once flew from New York to LA without flapping her wings."],
       playerBio: "You lookin\' at me chump?"
     },
