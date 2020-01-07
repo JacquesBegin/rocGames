@@ -18,7 +18,7 @@ export class TheTeamComponent implements OnInit {
       playerName: "Mary \"Evil Eye\" Henderson",
       playerPicture: "",
       playerAchievements: ["Once flew from New York to LA without flapping her wings."],
-      playerBio: "You lookin' at me chump?"
+      playerBio: "You lookin\' at me chump?"
     },
     {
       playerName: "",
