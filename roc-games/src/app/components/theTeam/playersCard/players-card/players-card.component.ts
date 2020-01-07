@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayersCardComponent implements OnInit {
 
-  players: [
+  players = [
     {
       playerName: "Bob \"Guns-a-Blazin\" Jones",
       playerPicture: "../../../../assets/images/temp/blazin.jpg",
@@ -32,7 +32,7 @@ export class PlayersCardComponent implements OnInit {
       playerAchievements: ["Can open any can without breaking a sweat."],
       playerBio: "You'll be lucky if I show up"
     }
-  ]
+  ];
 
   constructor() { }
 
