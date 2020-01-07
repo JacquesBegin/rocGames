@@ -12,7 +12,7 @@ export class TheTeamComponent implements OnInit {
       playerName: "Bob 'Guns-a-Blazin' Jones",
       playerPicture: "",
       playerAchievements: ["Holds the East Coast record for rat tails collected with one wing tied behind his back."],
-      playerBio: ""
+      playerBio: "'You see this hair baby.....that's all I've got to say'"
     },
     {
       playerName: "",
