@@ -7,6 +7,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TheTeamComponent implements OnInit {
 
+  players: [
+    {
+      playerName: "Bob 'Guns-a-Blazin' Jones",
+      playerPicture: "",
+      playerAchievements: ["Holds the East Coast record for rat tails collected with one wing tied behind his back."],
+      playerBio: ""
+    },
+    {
+      playerName: "",
+      playerPicture: "",
+      playerAchievements: [],
+      playerBio: ""
+    },
+    {
+      playerName: "",
+      playerPicture: "",
+      playerAchievements: [],
+      playerBio: ""
+    },
+    {
+      playerName: "",
+      playerPicture: "",
+      playerAchievements: [],
+      playerBio: ""
+    }
+  ]
+
   constructor() { }
 
   ngOnInit() {
