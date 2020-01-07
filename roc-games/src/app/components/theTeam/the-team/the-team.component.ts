@@ -27,10 +27,10 @@ export class TheTeamComponent implements OnInit {
       playerBio: "I can scratch with the best of \'em"
     },
     {
-      playerName: "",
-      playerPicture: "",
-      playerAchievements: [],
-      playerBio: ""
+      playerName: "Sally \"Two Cans\" Miller",
+      playerPicture: "../../../../assets/images/temp/toucanSally.jpg",
+      playerAchievements: ["Can open any can without breaking a sweat."],
+      playerBio: "You'll be lucky if I show up"
     }
   ]
 
