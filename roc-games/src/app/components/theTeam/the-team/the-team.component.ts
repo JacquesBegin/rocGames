@@ -23,8 +23,8 @@ export class TheTeamComponent implements OnInit {
     {
       playerName: "Tommy \"Chicken Scratch\" Wilburn",
       playerPicture: "../../../../assets/images/temp/chickenScratch.jpg",
-      playerAchievements: [],
-      playerBio: ""
+      playerAchievements: ["Pecked his way through the farmers market without becoming dinner."],
+      playerBio: "I can scratch with the best of \'em"
     },
     {
       playerName: "",
