@@ -21,8 +21,8 @@ export class TheTeamComponent implements OnInit {
       playerBio: "You lookin\' at me chump?"
     },
     {
-      playerName: "",
-      playerPicture: "",
+      playerName: "Tommy \"Chicken Scratch\" Wilburn",
+      playerPicture: "../../../../assets/images/temp/chickenScratch.jpg",
       playerAchievements: [],
       playerBio: ""
     },
