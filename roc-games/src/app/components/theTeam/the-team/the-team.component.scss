@@ -3,3 +3,68 @@
   margin-right: 1rem;
   margin-bottom: 5rem;
 }
+
+.playersCard {
+  background-color: #ffcb07;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0.15rem 0.15rem 0.05rem gray;
+  border-radius: 0.5rem;
+}
+
+.players {
+  display: flex;
+  padding: 0.5rem;
+  background-color: #ffcb07;
+  border: 0.5rem solid #000000;
+  border-top: 1.5rem solid #000000;
+  border-radius: 0.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.playerProfilePicture {
+  flex: 1;
+}
+
+.playerProfilePicture img {
+  width: 100%;
+}
+
+.playerData {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.playerProfileContent:first-of-type {
+  margin-top: 0.2rem;
+}
+
+.playerProfileContent {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #000000;
+}
+
+.playerProfileContent:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.playerProfileContent:first-of-type {
+  margin-top: 0.2rem;
+}
+
+.playerContentLabel {
+  background-color: #ffcb07;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+}
+
+.playerContentData {
+  padding: 0.3rem;
+}
+
+.playerProfileAchievements {
+  padding-top: 0.5rem;
+  display: flex;
+}
