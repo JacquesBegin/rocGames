@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SiteIntroComponent } from './components/site-intro/site-intro.component';
 import { TheTeamComponent } from './components/theTeam/the-team/the-team.component';
 import { PlayersCardComponent } from './components/theTeam/playersCard/players-card/players-card.component';
+import { ArticleComponent } from './components/articles/article/article.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { PlayersCardComponent } from './components/theTeam/playersCard/players-c
     SiteIntroComponent,
     TheTeamComponent,
     PlayersCardComponent,
+    ArticleComponent,
   ],
   imports: [
     BrowserModule,
