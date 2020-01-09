@@ -1,6 +1,15 @@
 .newContentSection {
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
+.sectionTitle {
+  border-bottom: 1px dotted gray;
+  padding-left: 1rem;
+  width: 50%;
+  transform: skew(-20deg);
+  background-color: #ffcb07;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
