@@ -10,6 +10,7 @@ import { TheTeamComponent } from './components/theTeam/the-team/the-team.compone
 import { PlayersCardComponent } from './components/theTeam/playersCard/players-card/players-card.component';
 import { ArticleComponent } from './components/articles/article/article.component';
 import { TheArticlesComponent } from './components/articles/the-articles/the-articles.component';
+import { CreateArticleComponent } from './components/articles/create-article/create-article.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { TheArticlesComponent } from './components/articles/the-articles/the-art
     PlayersCardComponent,
     ArticleComponent,
     TheArticlesComponent,
+    CreateArticleComponent,
   ],
   imports: [
     BrowserModule,
