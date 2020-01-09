@@ -1,0 +1,42 @@
+#addArticle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#addArticle label {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: block;
+  padding-bottom: 0.5rem;
+}
+
+#newArticleForm {
+  color: white;
+  background-color: #20a199;
+  text-shadow: 0.05rem 0.05rem 0.05rem black;
+  padding: 1rem;
+}
+
+#newArticleTitle {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#newArticleTextArea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 6rem;
+  min-height: 6rem;
+  max-height: 20rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#newArticleSubmitButton {
+  background-color: #ffcb07;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
