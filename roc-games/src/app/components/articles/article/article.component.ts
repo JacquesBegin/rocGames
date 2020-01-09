@@ -7,6 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArticleComponent implements OnInit {
 
+  databaseArticles = [
+    {
+      articleTitle: "",
+      articleAuthor: "",
+      articleDate: "",
+      articleContent: ""
+    },
+    {
+      articleTitle: "",
+      articleAuthor: "",
+      articleDate: "",
+      articleContent: ""
+    }
+  ]
+
   constructor() { }
 
   ngOnInit() {
