@@ -9,6 +9,7 @@ import { SiteIntroComponent } from './components/site-intro/site-intro.component
 import { TheTeamComponent } from './components/theTeam/the-team/the-team.component';
 import { PlayersCardComponent } from './components/theTeam/playersCard/players-card/players-card.component';
 import { ArticleComponent } from './components/articles/article/article.component';
+import { TheArticlesComponent } from './components/articles/the-articles/the-articles.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ArticleComponent } from './components/articles/article/article.componen
     TheTeamComponent,
     PlayersCardComponent,
     ArticleComponent,
+    TheArticlesComponent,
   ],
   imports: [
     BrowserModule,
