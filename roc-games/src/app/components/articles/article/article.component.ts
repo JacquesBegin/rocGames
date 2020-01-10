@@ -9,8 +9,8 @@ export class ArticleComponent implements OnInit {
 
   databaseArticles = [
     {
-      articleTitle: "",
-      articleAuthor: "",
+      articleTitle: "The Best Way to Win at Losing",
+      articleAuthor: "Guns-a-Blazin",
       articleDate: "",
       articleContent: ""
     },
@@ -20,7 +20,7 @@ export class ArticleComponent implements OnInit {
       articleDate: "",
       articleContent: ""
     }
-  ]
+  ];
 
   constructor() { }
 
