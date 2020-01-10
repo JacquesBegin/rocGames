@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArticleComponent implements OnInit {
 
+  // TODO: HTML elements in the article content string are not being recognized on loading
   databaseArticles = [
     {
       articleTitle: "The Best Way to Win at Losing",
