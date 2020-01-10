@@ -16,7 +16,7 @@ export class ArticleComponent implements OnInit {
     },
     {
       articleTitle: "",
-      articleAuthor: "",
+      articleAuthor: "Two Cans or Not Two Cans",
       articleDate: "",
       articleContent: ""
     }
