@@ -10,7 +10,7 @@ export class TheContactComponent implements OnInit {
   contactName: string = "";
   contactEmail: string = "";
   contactPhoneNum: string = "";
-  
+  contactMessage: string = "";
   
 
   constructor() { }
