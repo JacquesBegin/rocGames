@@ -13,6 +13,7 @@ import { PlayersCardComponent } from './components/theTeam/playersCard/players-c
 import { ArticleComponent } from './components/articles/article/article.component';
 import { TheArticlesComponent } from './components/articles/the-articles/the-articles.component';
 import { CreateArticleComponent } from './components/articles/create-article/create-article.component';
+import { TheContactComponent } from './the-contact/the-contact.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CreateArticleComponent } from './components/articles/create-article/cre
     ArticleComponent,
     TheArticlesComponent,
     CreateArticleComponent,
+    TheContactComponent,
   ],
   imports: [
     BrowserModule,
