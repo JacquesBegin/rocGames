@@ -13,7 +13,7 @@ import { PlayersCardComponent } from './components/theTeam/playersCard/players-c
 import { ArticleComponent } from './components/articles/article/article.component';
 import { TheArticlesComponent } from './components/articles/the-articles/the-articles.component';
 import { CreateArticleComponent } from './components/articles/create-article/create-article.component';
-import { TheContactComponent } from './the-contact/the-contact.component';
+import { TheContactComponent } from './components/contact/the-contact/the-contact.component';
 import { AddressComponent } from './components/contact/address/address.component';
 import { ContactFormComponent } from './components/contact/contact-form/contact-form.component';
 
