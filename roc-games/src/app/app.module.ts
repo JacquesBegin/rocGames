@@ -14,6 +14,7 @@ import { ArticleComponent } from './components/articles/article/article.componen
 import { TheArticlesComponent } from './components/articles/the-articles/the-articles.component';
 import { CreateArticleComponent } from './components/articles/create-article/create-article.component';
 import { TheContactComponent } from './the-contact/the-contact.component';
+import { AddressComponent } from './components/contact/address/address.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { TheContactComponent } from './the-contact/the-contact.component';
     TheArticlesComponent,
     CreateArticleComponent,
     TheContactComponent,
+    AddressComponent,
   ],
   imports: [
     BrowserModule,
