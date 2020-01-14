@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactFormComponent implements OnInit {
 
+  // TODO: Bind contact form to component file.
+
   constructor() { }
 
   ngOnInit() {
