@@ -5,7 +5,7 @@
   <label for="contactFormEmail">Email:</label>
   <input type="email" [(ngModel)]="contactEmail" id="contactFormEmail" name="contactFormEmail" maxlength="50">
   <label for="contactFormPhone">Phone:</label>
-  <input type="tel" id="contactFormPhone" maxlength="20">
+  <input type="tel" [(ngModel)]="contactPhone" id="contactFormPhone" name="contactFormPhone" maxlength="20">
   <label for="contactFormMessage">Message:</label>
   <textarea name="contactFormMessage" form="contactForm" id="contactFormMessage" maxlength="2000" placeholder="What's on your mind?"></textarea>
   <input type="submit" value="Contact" id="contactSubmitButton">
