@@ -9,6 +9,7 @@ export class CreateArticleComponent implements OnInit {
 
   articleTitle: string = "";
   articleContent: string = "";
+  articleAuthor: string = "";
 
   constructor() { }
 
