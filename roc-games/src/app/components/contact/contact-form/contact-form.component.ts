@@ -11,6 +11,7 @@ export class ContactFormComponent implements OnInit {
   contactName: string = "";
   contactEmail: string = "";
   contactPhone: string = "";
+  contactMessage: string = "";
 
   constructor() { }
 
