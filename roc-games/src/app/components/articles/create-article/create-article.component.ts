@@ -10,6 +10,7 @@ export class CreateArticleComponent implements OnInit {
   articleTitle: string = "";
   articleContent: string = "";
   articleAuthor: string = "";
+  articleDate: Date = new Date();
 
   constructor() { }
 
