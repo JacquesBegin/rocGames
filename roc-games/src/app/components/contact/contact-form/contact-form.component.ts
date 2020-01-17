@@ -9,6 +9,7 @@ export class ContactFormComponent implements OnInit {
 
   // TODO: Bind contact form to component file.
   contactName: string = "";
+  contactEmail: string = "";
 
   constructor() { }
 
