@@ -7,6 +7,6 @@
   <label for="contactFormPhone">Phone:</label>
   <input type="tel" [(ngModel)]="contactPhone" id="contactFormPhone" name="contactFormPhone" maxlength="20">
   <label for="contactFormMessage">Message:</label>
-  <textarea name="contactFormMessage" form="contactForm" id="contactFormMessage" maxlength="2000" placeholder="What's on your mind?"></textarea>
+  <textarea form="contactForm" [(ngModel)]="contactMessage" id="contactFormMessage" name="contactFormMessage" maxlength="2000" placeholder="What's on your mind?"></textarea>
   <input type="submit" value="Contact" id="contactSubmitButton">
 </form>
