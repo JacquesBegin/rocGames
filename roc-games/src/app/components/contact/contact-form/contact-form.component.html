@@ -1,7 +1,7 @@
 <form id="contactForm">
   <span>Send Us a Message</span>
   <label for="contactFormName">Name:</label>
-  <input type="text" id="contactFormName" maxlength="40">
+  <input type="text" [(ngModel)]="contactName" id="contactFormName" name="contactFormName" maxlength="40">
   <label for="contactFormEmail">Email:</label>
   <input type="email" id="contactFormEmail" maxlength="50">
   <label for="contactFormPhone">Phone:</label>
