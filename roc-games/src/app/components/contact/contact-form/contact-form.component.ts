@@ -22,6 +22,7 @@ export class ContactFormComponent implements OnInit {
     let contactData = {
       contactName: this.contactName,
       contactEmail: this.contactEmail,
+      contactPhone: this.contactPhone,
 
     }
   }
