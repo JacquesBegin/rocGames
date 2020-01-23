@@ -33,4 +33,10 @@ app.use(function(err, req, res, next) {
   console.error(err.message);
   if(!err.statusCode) err.statusCode = 500; // Set error to internal server error 500 when error code not specified.
   res.status(err.statusCode).send(err.message); // Send error message as response.
-})
+});
+
+
+app.post('/contactForm', function (req, res) {
+  
+});
+
