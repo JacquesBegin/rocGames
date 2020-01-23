@@ -23,7 +23,7 @@ export class ContactFormComponent implements OnInit {
       contactName: this.contactName,
       contactEmail: this.contactEmail,
       contactPhone: this.contactPhone,
-
+      contactMessage: this.contactMessage
     }
   }
 
