@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {HttpClient, HttpErrorResponse} from '@angular/common/http';
 
 @Component({
   selector: 'app-contact-form',
@@ -25,6 +26,7 @@ export class ContactFormComponent implements OnInit {
       contactPhone: this.contactPhone,
       contactMessage: this.contactMessage
     }
+    this.http.post()
   }
 
 }
