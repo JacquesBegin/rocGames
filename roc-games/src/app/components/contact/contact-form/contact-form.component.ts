@@ -26,7 +26,10 @@ export class ContactFormComponent implements OnInit {
       contactPhone: this.contactPhone,
       contactMessage: this.contactMessage
     }
-    this.http.post()
+    this.http.post("localhost:5555/contactForm", contactData)
+    .subscribe(res => {
+      console.log(res);
+    });
   }
 
 }
