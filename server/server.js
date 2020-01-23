@@ -29,6 +29,16 @@ const server = app.listen(port, () => {
 //   next(createError(404));
 // });
 
+
+
+app.get('/', function (req, res) {
+  res.send("getted");
+});
+
+app.post('/contactForm', function (req, res) {
+  res.send("posted");
+});
+
 app.use(function(err, req, res, next) {
   console.error(err.message);
   if(!err.statusCode) err.statusCode = 500; // Set error to internal server error 500 when error code not specified.
@@ -36,7 +46,5 @@ app.use(function(err, req, res, next) {
 });
 
 
-app.post('/contactForm', function (req, res) {
-  
-});
+
 
