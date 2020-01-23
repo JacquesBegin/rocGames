@@ -14,7 +14,7 @@ export class ContactFormComponent implements OnInit {
   contactPhone: string = "";
   contactMessage: string = "";
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
   }
