@@ -20,7 +20,7 @@ import { AddressComponent } from './components/contact/address/address.component
 import { ContactFormComponent } from './components/contact/contact-form/contact-form.component';
 
 const appRoutes: Routes = [
-  { path: 'articles', component: TheArticlesComponent },
+  { path: 'siteIntro', component: SiteIntroComponent },
   { path: 'articles', component: TheArticlesComponent },
   { path: 'articles', component: TheArticlesComponent },
   { path: 'articles', component: TheArticlesComponent }
