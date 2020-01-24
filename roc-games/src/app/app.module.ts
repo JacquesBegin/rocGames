@@ -23,6 +23,7 @@ const appRoutes: Routes = [
   { path: 'articles', component: TheArticlesComponent },
   { path: 'articles', component: TheArticlesComponent },
   { path: 'articles', component: TheArticlesComponent },
+  { path: 'articles', component: TheArticlesComponent }
 
 ]
 
