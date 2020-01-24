@@ -22,7 +22,7 @@ import { ContactFormComponent } from './components/contact/contact-form/contact-
 const appRoutes: Routes = [
   { path: 'siteIntro', component: SiteIntroComponent },
   { path: 'articles', component: TheArticlesComponent },
-  { path: 'articles', component: TheArticlesComponent },
+  { path: 'team', component: TheTeamComponent },
   { path: 'articles', component: TheArticlesComponent }
 
 ]
