@@ -21,7 +21,8 @@ import { ContactFormComponent } from './components/contact/contact-form/contact-
 
 const appRoutes: Routes = [
   { path: 'articles', component: TheArticlesComponent },
-  
+  { path: 'articles', component: TheArticlesComponent },
+
 ]
 
 @NgModule({
