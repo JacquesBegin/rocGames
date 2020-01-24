@@ -19,6 +19,11 @@ import { TheContactComponent } from './components/contact/the-contact/the-contac
 import { AddressComponent } from './components/contact/address/address.component';
 import { ContactFormComponent } from './components/contact/contact-form/contact-form.component';
 
+const appRoutes: Routes = [
+  { path: 'articles', component: TheArticlesComponent },
+  
+]
+
 @NgModule({
   declarations: [
     AppComponent,
