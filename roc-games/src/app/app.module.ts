@@ -23,7 +23,8 @@ const appRoutes: Routes = [
   { path: 'siteIntro', component: SiteIntroComponent },
   { path: 'articles', component: TheArticlesComponent },
   { path: 'team', component: TheTeamComponent },
-  { path: 'contact', component: TheContactComponent }
+  { path: 'contact', component: TheContactComponent },
+  { path: '', redirectTo: '/siteIntro', pathMatch: 'full'},
 
 ]
 
