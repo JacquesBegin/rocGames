@@ -26,7 +26,7 @@ const appRoutes: Routes = [
   { path: 'team', component: TheTeamComponent },
   { path: 'contact', component: TheContactComponent },
   { path: '', redirectTo: '/siteIntro', pathMatch: 'full'},
-  {path: '**', component: PageNotFoundComponent } // TODO: create PageNotFoundComponent
+  { path: '**', component: PageNotFoundComponent } // TODO: create PageNotFoundComponent
                                                   // TODO: Keep building the Routes
 ]
 
