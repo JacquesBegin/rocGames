@@ -18,6 +18,7 @@ import { CreateArticleComponent } from './components/articles/create-article/cre
 import { TheContactComponent } from './components/contact/the-contact/the-contact.component';
 import { AddressComponent } from './components/contact/address/address.component';
 import { ContactFormComponent } from './components/contact/contact-form/contact-form.component';
+import { PageNotFoundComponent } from './components/pageNotFound/page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
   { path: 'siteIntro', component: SiteIntroComponent },
@@ -25,7 +26,7 @@ const appRoutes: Routes = [
   { path: 'team', component: TheTeamComponent },
   { path: 'contact', component: TheContactComponent },
   { path: '', redirectTo: '/siteIntro', pathMatch: 'full'},
-   {path: '**', component: PageNotFoundComponent } // TODO: create PageNotFoundComponent
+  {path: '**', component: PageNotFoundComponent } // TODO: create PageNotFoundComponent
                                                   // TODO: Keep building the Routes
 ]
 
@@ -43,6 +44,7 @@ const appRoutes: Routes = [
     TheContactComponent,
     AddressComponent,
     ContactFormComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
