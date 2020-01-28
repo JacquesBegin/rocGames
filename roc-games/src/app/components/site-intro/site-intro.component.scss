@@ -33,6 +33,9 @@
   cursor: pointer;
 }
 
+.siteIntroContentBlocksItem:hover { 
+  background-color: #f7f7f7;
+}
 
 .siteIntroContentBlocksItemHeader {
   background-color: $primary-yellow;
