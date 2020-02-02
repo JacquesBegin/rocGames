@@ -19,6 +19,7 @@ import { TheContactComponent } from './components/contact/the-contact/the-contac
 import { AddressComponent } from './components/contact/address/address.component';
 import { ContactFormComponent } from './components/contact/contact-form/contact-form.component';
 import { PageNotFoundComponent } from './components/pageNotFound/page-not-found/page-not-found.component';
+import { FooterComponent } from './components/footer/footer/footer.component';
 
 const appRoutes: Routes = [
   { path: 'siteIntro', component: SiteIntroComponent },
@@ -45,6 +46,7 @@ const appRoutes: Routes = [
     AddressComponent,
     ContactFormComponent,
     PageNotFoundComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
